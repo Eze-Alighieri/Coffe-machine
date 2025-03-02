@@ -1,0 +1,63 @@
+{
+    "recursos_disponibles": {
+        "agua": [
+            15000,
+            "ml"
+        ],
+        "cafe": [
+            2000,
+            "g"
+        ],
+        "leche": [
+            5000,
+            "ml"
+        ],
+        "dinero": [
+            "$",
+            0
+        ]
+    },
+    "requerimientos": {
+        "tinto": {
+            "agua": 250,
+            "cafe": 12,
+            "leche": 0,
+            "precio": 1800
+        },
+        "latte": {
+            "agua": 50,
+            "cafe": 24,
+            "leche": 200,
+            "precio": 2400
+        },
+        "cappuccino": {
+            "agua": 60,
+            "cafe": 12,
+            "leche": 140,
+            "precio": 3200
+        }
+    },
+    "ventas": {
+        "tinto": 0,
+        "latte": 0,
+        "cappuccino": 0
+    },
+    "dinero_inicial": {
+        "monedas_1000": [
+            5,
+            1000
+        ],
+        "monedas_500": [
+            10,
+            500
+        ],
+        "monedas_200": [
+            30,
+            200
+        ],
+        "monedas_100": [
+            40,
+            100
+        ]
+    }
+}
